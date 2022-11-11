@@ -1,0 +1,24 @@
+{
+    "name": "Travian Resource Manager",
+    "version": "0.0.0.1",
+    "manifest_version": 3,
+    "description": "Calcula os recursos obtidos nos assaltos",
+    "icons": {
+        "62": "icons/11.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+              "https://ts1.x1.america.travian.com/build.php*"
+            ],
+            "js": ["scripts/calcula.js", "lib/jquery-3.6.1.min.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["images/*.jpeg"],
+            "matches": ["<all_urls>"]
+        }
+    ]
+}
