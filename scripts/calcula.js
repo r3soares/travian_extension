@@ -1,4 +1,4 @@
-let recursos = [0,0,0,0];
+let recursos = [0,0,0,0,0]; //Ultimo é a capacidade total das tropas
 let tropas = [0,0,0,0,0,0,0,0,0,0,0];
 //Calcula a quantidade de cada recurso
 calculaRecursos(recursos);
@@ -30,6 +30,14 @@ function calculaRecursos(recursos)
         recursos[1] += parseInt(r[1]);
         recursos[2] += parseInt(r[2]);
         recursos[3] += parseInt(r[3]);
+    }
+    let listaCapUnidadesHtml = document.getElementsByClassName("carry resourceWrapper");
+    let parte = 0;
+    for(let i = 0; i < listaCapUnidadesHtml.length; i++)
+    {
+        let parteTotal = listaCapUnidadesHtml[i].children[0].children[1].innerText.split("/");
+        parte += parseInt(parteTotal[0].toString());
+        recursos[4] += parseInt(parteTotal[1].toString());
     }
     console.log(recursos);
 }

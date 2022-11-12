@@ -1,0 +1,521 @@
+{
+    "Romanos":
+    [
+        {
+            "ID" : 1,
+            "Nome": "Legionário",
+            "Atk": 40,
+            "DefI": 35,
+            "DefC": 50,
+            "Recursos":
+            {
+                "Madeira": 120,
+                "Barro": 100,
+                "Ferro": 150,
+                "Cereal": 30
+            },
+            "Manutencao": 1,
+            "Capacidade": 50,
+            "Velocidade": 6 
+        },
+        {
+            "ID" : 2,
+            "Nome": "Pretoriano",
+            "Atk": 30,
+            "DefI": 65,
+            "DefC": 35,
+            "Recursos":
+            {
+                "Madeira": 100,
+                "Barro": 130,
+                "Ferro": 160,
+                "Cereal": 70
+            },
+            "Manutencao": 1,
+            "Capacidade": 20,
+            "Velocidade": 5 
+        },
+        {
+            "ID" : 3,
+            "Nome": "Imperiano",
+            "Atk": 70,
+            "DefI": 40,
+            "DefC": 25,
+            "Recursos":
+            {
+                "Madeira": 150,
+                "Barro": 160,
+                "Ferro": 210,
+                "Cereal": 80
+            },
+            "Manutencao": 1,
+            "Capacidade": 50,
+            "Velocidade": 7 
+        },
+        {
+            "ID" : 4,
+            "Nome": "Equites Legati",
+            "Atk": 0,
+            "DefI": 20,
+            "DefC": 10,
+            "Recursos":
+            {
+                "Madeira": 140,
+                "Barro": 160,
+                "Ferro": 20,
+                "Cereal": 40
+            },
+            "Manutencao": 2,
+            "Capacidade": 0,
+            "Velocidade": 16 
+        },
+        {
+            "ID" : 5,
+            "Nome": "Equites Imperatoris",
+            "Atk": 120,
+            "DefI": 65,
+            "DefC": 50,
+            "Recursos":
+            {
+                "Madeira": 550,
+                "Barro": 440,
+                "Ferro": 320,
+                "Cereal": 100
+            },
+            "Manutencao": 3,
+            "Capacidade": 100,
+            "Velocidade": 14 
+        },
+        {
+            "ID" : 6,
+            "Nome": "Equites Caesaris",
+            "Atk": 180,
+            "DefI": 80,
+            "DefC": 105,
+            "Recursos":
+            {
+                "Madeira": 550,
+                "Barro": 640,
+                "Ferro": 800,
+                "Cereal": 180
+            },
+            "Manutencao": 4,
+            "Capacidade": 70,
+            "Velocidade": 10 
+        },
+        {
+            "ID" : 7,
+            "Nome": "Ariete",
+            "Atk": 60,
+            "DefI": 30,
+            "DefC": 75,
+            "Recursos":
+            {
+                "Madeira": 900,
+                "Barro": 360,
+                "Ferro": 500,
+                "Cereal": 70
+            },
+            "Manutencao": 3,
+            "Capacidade": 0,
+            "Velocidade": 4 
+        },
+        {
+            "ID" : 8,
+            "Nome": "Catapulta de Fogo",
+            "Atk": 75,
+            "DefI": 60,
+            "DefC": 10,
+            "Recursos":
+            {
+                "Madeira": 950,
+                "Barro": 1350,
+                "Ferro": 600,
+                "Cereal": 90
+            },
+            "Manutencao": 6,
+            "Capacidade": 0,
+            "Velocidade": 3 
+        },
+        {
+            "ID" : 9,
+            "Nome": "Senador",
+            "Atk": 50,
+            "DefI": 40,
+            "DefC": 30,
+            "Recursos":
+            {
+                "Madeira": 30750,
+                "Barro": 27200,
+                "Ferro": 45000,
+                "Cereal": 37500
+            },
+            "Manutencao": 5,
+            "Capacidade": 0,
+            "Velocidade": 4 
+        },
+        {
+            "ID" : 10,
+            "Nome": "Colonizador",
+            "Atk": 0,
+            "DefI": 80,
+            "DefC": 80,
+            "Recursos":
+            {
+                "Madeira": 4600,
+                "Barro": 4200,
+                "Ferro": 5800,
+                "Cereal": 4400
+            },
+            "Manutencao": 1,
+            "Capacidade": 3000,
+            "Velocidade": 5 
+        }
+    ],
+    "Teutões":
+    [
+        {
+            "ID" : 11,
+            "Nome": "Salteador",
+            "Atk": 40,
+            "DefI": 20,
+            "DefC": 5,
+            "Recursos":
+            {
+                "Madeira": 95,
+                "Barro": 75,
+                "Ferro": 40,
+                "Cereal": 40
+            },
+            "Manutencao": 1,
+            "Capacidade": 60,
+            "Velocidade": 7 
+        },
+        {
+            "ID" : 12,
+            "Nome": "Lanceiro",
+            "Atk": 10,
+            "DefI": 35,
+            "DefC": 60,
+            "Recursos":
+            {
+                "Madeira": 145,
+                "Barro": 70,
+                "Ferro": 85,
+                "Cereal": 40
+            },
+            "Manutencao": 1,
+            "Capacidade": 40,
+            "Velocidade": 7 
+        },
+        {
+            "ID" : 13,
+            "Nome": "Bárbaro",
+            "Atk": 60,
+            "DefI": 30,
+            "DefC": 30,
+            "Recursos":
+            {
+                "Madeira": 130,
+                "Barro": 120,
+                "Ferro": 170,
+                "Cereal": 70
+            },
+            "Manutencao": 1,
+            "Capacidade": 50,
+            "Velocidade": 6 
+        },
+        {
+            "ID" : 14,
+            "Nome": "Espião",
+            "Atk": 160,
+            "DefI": 10,
+            "DefC": 5,
+            "Recursos":
+            {
+                "Madeira": 160,
+                "Barro": 100,
+                "Ferro": 50,
+                "Cereal": 50
+            },
+            "Manutencao": 1,
+            "Capacidade": 0,
+            "Velocidade": 9 
+        },
+        {
+            "ID" : 15,
+            "Nome": "Paladino",
+            "Atk": 55,
+            "DefI": 100,
+            "DefC": 40,
+            "Recursos":
+            {
+                "Madeira": 370,
+                "Barro": 270,
+                "Ferro": 290,
+                "Cereal": 75
+            },
+            "Manutencao": 2,
+            "Capacidade": 110,
+            "Velocidade": 10 
+        },
+        {
+            "ID" : 16,
+            "Nome": "Cavaleiro Teutão",
+            "Atk": 150,
+            "DefI": 50,
+            "DefC": 75,
+            "Recursos":
+            {
+                "Madeira": 450,
+                "Barro": 515,
+                "Ferro": 480,
+                "Cereal": 80
+            },
+            "Manutencao": 3,
+            "Capacidade": 80,
+            "Velocidade": 9 
+        },
+        {
+            "ID" : 17,
+            "Nome": "Ariete",
+            "Atk": 65,
+            "DefI": 30,
+            "DefC": 80,
+            "Recursos":
+            {
+                "Madeira": 1000,
+                "Barro": 300,
+                "Ferro": 350,
+                "Cereal": 70
+            },
+            "Manutencao": 3,
+            "Capacidade": 0,
+            "Velocidade": 4 
+        },
+        {
+            "ID" : 18,
+            "Nome": "Catapulta",
+            "Atk": 50,
+            "DefI": 60,
+            "DefC": 10,
+            "Recursos":
+            {
+                "Madeira": 900,
+                "Barro": 1200,
+                "Ferro": 600,
+                "Cereal": 60
+            },
+            "Manutencao": 6,
+            "Capacidade": 0,
+            "Velocidade": 3 
+        },
+        {
+            "ID" : 19,
+            "Nome": "Chefe",
+            "Atk": 40,
+            "DefI": 60,
+            "DefC": 40,
+            "Recursos":
+            {
+                "Madeira": 35500,
+                "Barro": 26600,
+                "Ferro": 25000,
+                "Cereal": 27200
+            },
+            "Manutencao": 4,
+            "Capacidade": 0,
+            "Velocidade": 4 
+        },
+        {
+            "ID" : 20,
+            "Nome": "Colonizador",
+            "Atk": 10,
+            "DefI": 80,
+            "DefC": 80,
+            "Recursos":
+            {
+                "Madeira": 5800,
+                "Barro": 4400,
+                "Ferro": 4600,
+                "Cereal": 5200
+            },
+            "Manutencao": 1,
+            "Capacidade": 3000,
+            "Velocidade": 5 
+        }
+    ],
+    "Gauleses":
+    [
+        {
+            "ID" : 21,
+            "Nome": "Falange",
+            "Atk": 15,
+            "DefI": 40,
+            "DefC": 50,
+            "Recursos":
+            {
+                "Madeira": 100,
+                "Barro": 130,
+                "Ferro": 55,
+                "Cereal": 30
+            },
+            "Manutencao": 1,
+            "Capacidade": 35,
+            "Velocidade": 7 
+        },
+        {
+            "ID" : 22,
+            "Nome": "Espadachin",
+            "Atk": 65,
+            "DefI": 35,
+            "DefC": 20,
+            "Recursos":
+            {
+                "Madeira": 140,
+                "Barro": 150,
+                "Ferro": 185,
+                "Cereal": 60
+            },
+            "Manutencao": 1,
+            "Capacidade": 45,
+            "Velocidade": 6 
+        },
+        {
+            "ID" : 23,
+            "Nome": "Batedor",
+            "Atk": 0,
+            "DefI": 20,
+            "DefC": 10,
+            "Recursos":
+            {
+                "Madeira": 170,
+                "Barro": 150,
+                "Ferro": 20,
+                "Cereal": 40
+            },
+            "Manutencao": 2,
+            "Capacidade": 0,
+            "Velocidade": 17 
+        },
+        {
+            "ID" : 24,
+            "Nome": "Trovão Theutate",
+            "Atk": 100,
+            "DefI": 25,
+            "DefC": 40,
+            "Recursos":
+            {
+                "Madeira": 350,
+                "Barro": 450,
+                "Ferro": 230,
+                "Cereal": 60
+            },
+            "Manutencao": 2,
+            "Capacidade": 75,
+            "Velocidade": 19 
+        },
+        {
+            "ID" : 25,
+            "Nome": "Cavaleiro Druida",
+            "Atk": 45,
+            "DefI": 115,
+            "DefC": 55,
+            "Recursos":
+            {
+                "Madeira": 360,
+                "Barro": 330,
+                "Ferro": 280,
+                "Cereal": 120
+            },
+            "Manutencao": 2,
+            "Capacidade": 35,
+            "Velocidade": 16 
+        },
+        {
+            "ID" : 26,
+            "Nome": "Haeduano",
+            "Atk": 140,
+            "DefI": 60,
+            "DefC": 165,
+            "Recursos":
+            {
+                "Madeira": 500,
+                "Barro": 620,
+                "Ferro": 675,
+                "Cereal": 170
+            },
+            "Manutencao": 3,
+            "Capacidade": 65,
+            "Velocidade": 13 
+        },
+        {
+            "ID" : 27,
+            "Nome": "Ariete",
+            "Atk": 50,
+            "DefI": 30,
+            "DefC": 105,
+            "Recursos":
+            {
+                "Madeira": 950,
+                "Barro": 555,
+                "Ferro": 330,
+                "Cereal": 75
+            },
+            "Manutencao": 3,
+            "Capacidade": 0,
+            "Velocidade": 4 
+        },
+        {
+            "ID" : 28,
+            "Nome": "Trabuquete",
+            "Atk": 70,
+            "DefI": 45,
+            "DefC": 10,
+            "Recursos":
+            {
+                "Madeira": 960,
+                "Barro": 1450,
+                "Ferro": 630,
+                "Cereal": 90
+            },
+            "Manutencao": 6,
+            "Capacidade": 0,
+            "Velocidade": 3 
+        },
+        {
+            "ID" : 29,
+            "Nome": "Chefe de Clã",
+            "Atk": 40,
+            "DefI": 50,
+            "DefC": 50,
+            "Recursos":
+            {
+                "Madeira": 30750,
+                "Barro": 45400,
+                "Ferro": 31000,
+                "Cereal": 37500
+            },
+            "Manutencao": 4,
+            "Capacidade": 0,
+            "Velocidade": 5 
+        },
+        {
+            "ID" : 30,
+            "Nome": "Colonizador",
+            "Atk": 0,
+            "DefI": 80,
+            "DefC": 80,
+            "Recursos":
+            {
+                "Madeira": 4400,
+                "Barro": 5600,
+                "Ferro": 4200,
+                "Cereal": 3900
+            },
+            "Manutencao": 1,
+            "Capacidade": 3000,
+            "Velocidade": 5 
+        }
+    ]
+}

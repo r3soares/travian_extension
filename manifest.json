@@ -17,7 +17,7 @@
     ],
     "web_accessible_resources": [
         {
-            "resources": ["images/*.jpeg"],
+            "resources": ["images/*.jpeg", "data/*.json"],
             "matches": ["<all_urls>"]
         }
     ]
